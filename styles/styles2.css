@@ -1,0 +1,216 @@
+@media screen and (min-width: 1080px) {
+  
+  nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-container {
+    height: 60px;
+    padding-left: 6.9%;
+    padding-right: 6.9%;
+  }
+
+  .logo {
+    width: 36px;
+    height: 36px;
+    margin-top: 1%;
+  }
+
+  .logo-imagen {
+    width: 100%;
+  }
+
+  .show-icon-menu {
+    display: none;
+  }
+
+  .menu-container {
+    display: block;
+    position: static;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding-top: 0;
+    padding-left: 0;
+    margin-left: 0;
+    width: fit-content;
+  }
+
+  .menu-container ul {
+    flex-direction: row;
+  }
+
+  .menu-container ul a {
+    color: #060a24;
+    margin-left: 48px;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .menu-container ul a:hover {
+    color: #00f3bb;
+    text-decoration: line-through;
+  }
+
+  .menu-container ul a:active {
+    color: #060a248f;
+    text-decoration: line-through;
+  }
+
+  /* section 1: h, p introd., btn conoce */
+  h1 {
+    margin-left: 10%;
+    font-size: 64px;
+    margin-top: 130px;
+  }
+
+  .point-blue {
+    color: #0000ec;
+  }
+
+  .break-mobile {
+    display: none;
+  }
+
+  .text-desktop {
+    font-family: "IBM Plex Mono", monospace;
+    text-align: left;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 10%;
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .text-mobile {
+    display: none;
+  }
+
+  .container-btn-conoce {
+    justify-content: left;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+
+  .button {
+    font-size: 18px;
+    padding: 16px 59px 16px 59px;
+  }
+
+  .button #btn-conoce {
+    margin-left: 10%;
+    margin-top: 4%;
+  }
+
+  /* section 2: h, iframes */
+  .container-polygon {
+    clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0% 100%);
+    padding-top: 80px;
+    height: 960px;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  .h2-episodios {
+    margin-left: 10%;
+  }
+
+  .iframes-spoti {
+    width: 40%;
+    height: 80%;
+    padding-bottom: 7vh;
+  }
+
+  /* section 3: telefono, h, p nosotros */
+  .article-cellphone-text {
+    display: flex;
+  }
+
+  .img-phone {
+    width: 30vw;
+    margin-left: 13%;
+  }
+
+  .section-nosotros {
+    width: 36.5vw;
+    margin-top: 28vh;
+    margin-left: 4.4vw;
+  }
+
+  .text2 {
+    font-size: 16px;
+  }
+
+  /* section 4: h, galería */
+  .h2-invitados {
+    margin-top: -8vh;
+    margin-left: 10%;
+    margin-bottom: 5vh;
+  }
+  
+  .galeria{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .img-galeria {
+    width: 33.33%;
+  }
+
+  /* section 5: h, tópicos */
+  .h2-temas {
+    margin-left: 10%;
+    margin-top: 6vh;
+  }
+
+  .container-svg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .imgs-svg {
+    justify-content: flex-start;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  p {
+    margin-top: 4vh;
+  }
+
+  /* section 6: h6, btn escucha, */
+  .polygon-ult-nov {
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    padding-top: 20vh;
+    padding-bottom: 60vh;
+  }
+
+  .container-btn-escucha {
+    justify-content: center;
+  }
+
+  footer {
+    justify-content: space-between;
+  }
+
+  .pfooter {
+    font-size: 16px;
+    padding: 11px 0 11px 0;
+    margin-left: 9vw;
+  }
+
+  .container-icons {
+    margin-right: 9vw;
+  }
+
+  .fab {
+    padding: 36px 18px 36px 18px;
+  }
+  
+}
